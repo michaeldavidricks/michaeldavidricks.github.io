@@ -1,5 +1,6 @@
 :root {
-  --page-bg: #273450;
+  /*--page-bg: #273450;*/
+  --page-bg: #d0e912;
   --hero-bg: #e0e0db;
   --title-blue: #2e3b56;
   --nav-text: #1e1e1d;
@@ -171,7 +172,7 @@ body {
 }
 
 :root {
-  --page-bg: #273450;
+  --page-bg: #d0e912;
   --hero-bg: #e0e0db;
   --title-blue: #2e3b56;
   --nav-text: #1e1e1d;
