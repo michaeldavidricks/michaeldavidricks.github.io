@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --page-bg: #e0e0db;
+  --hero-bg: #273450;
+  --title-blue: #2e3b56;
+  --nav-text: #1e1e1d;
+  --hero-text: #fbfdfc;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -10,8 +18,8 @@ html, body {
 
 /* Whole page */
 body {
-  background: #efeeea;
-  color: #111111;
+  background: var(--page-bg);
+  color: var(--nav-text);
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -24,7 +32,7 @@ body {
 
 /* Header */
 .topbar {
-  background: #efeeea;
+  background: var(--hero-bg);
   padding: 34px 0 32px 0;
 }
 
@@ -79,7 +87,7 @@ body {
 
 /* Right text */
 .bio-col {
-  color: #ffffff;
+  color: var(--hero-text);
   max-width: 560px;
   padding-top: 76px;
 }
