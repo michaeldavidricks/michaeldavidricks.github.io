@@ -1,9 +1,9 @@
 :root {
-  --page-bg: #e0e0db;
-  --hero-bg: #273450;
+  --page-bg: #273450;
+  --hero-bg: #e0e0db;
   --title-blue: #2e3b56;
   --nav-text: #1e1e1d;
-  --hero-text: #fbfdfc;
+  --hero-text: #2c3b56;
 }
 
 /* Reset */
