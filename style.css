@@ -42,6 +42,7 @@
   --body-weight: 400;
   --body-paragraph-gap: clamp(26px, 3vw, 40px);
 
+  --footer-min-height: 120px;
   --footer-name-size: clamp(32px, 3vw, 44px);
   --footer-link-gap: 22px;
   --footer-row-gap: 16px;
@@ -183,7 +184,7 @@ body {
 }
 
 .footer-inner {
-  min-height: var(--header-min-height);
+  min-height: var(--footer-min-height);
   display: grid;
   justify-items: center;
   align-content: center;
