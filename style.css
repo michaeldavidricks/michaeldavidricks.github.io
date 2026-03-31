@@ -4,6 +4,7 @@
   --hero-bg: #e0e0db;
   --title-blue: #2e3b56;
   --nav-text: #1e1e1d;
+  --main-text: #ffffff;
   --hero-text: #2c3b56;
 }
 
@@ -19,8 +20,8 @@ html, body {
 
 body {
   background: var(--page-bg);
-  color: var(--nav-text);
-  font-family: Georgia, "Times New Roman", serif;
+  color: var(--main-text);
+  font-family: "EB Garamond", Garamond, Baskerville, "Times New Roman", serif;
 }
 
 /* Shared wrapper */
@@ -90,7 +91,7 @@ body {
 
 /* Text column */
 .bio-col {
-  color: var(--hero-text);
+  color: var(--main-text);
   max-width: 760px;
   padding-top: clamp(0px, 5vw, 80px);
 }
@@ -188,7 +189,7 @@ html, body {
 body {
   background: var(--page-bg);
   color: var(--nav-text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "EB Garamond", Garamond, Baskerville, "Times New Roman", serif;
 }
 
 /* Shared width */
@@ -231,7 +232,7 @@ body {
 
 /* Blue content band */
 .intro-band {
-  background: red;
+  background: #26385d;
   padding: 62px 0 70px 0;
 }
 
@@ -255,7 +256,7 @@ body {
 
 /* Right text */
 .bio-col {
-  color: var(--hero-text);
+  color: var(--main-text);
   max-width: 560px;
   padding-top: 76px;
 }
