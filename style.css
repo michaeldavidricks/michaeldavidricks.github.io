@@ -42,7 +42,7 @@
   --body-weight: 400;
   --body-paragraph-gap: clamp(26px, 3vw, 40px);
 
-  --footer-min-height: 120px;
+  --footer-min-height: 180px;
   --footer-name-size: clamp(32px, 3vw, 44px);
   --footer-link-gap: 22px;
   --footer-row-gap: 16px;
