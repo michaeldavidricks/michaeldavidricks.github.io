@@ -12,10 +12,10 @@
 
   --font-serif: "EB Garamond", Garamond, Baskerville, "Times New Roman", serif;
 
-  --site-max-width: 1600px;
-  --site-side-padding: clamp(18px, 2vw, 30px);
+  --site-max-width: 1760px;
+  --site-side-padding: clamp(12px, 1.5vw, 20px);
 
-  --header-min-height: 120px;
+  --header-min-height: 108px;
   --header-gap: 24px;
   --header-pad-y: 18px;
 
@@ -25,20 +25,20 @@
   --hero-columns-left: 45%;
   --hero-columns-right: 55%;
 
-  --image-max-width: 680px;
+  --image-max-width: 760px;
 
   --bio-top-offset: clamp(18px, 4vw, 74px);
   --bio-block-pad-y: clamp(24px, 2.6vw, 36px);
   --bio-block-pad-right: clamp(10px, 1.8vw, 24px);
 
-  --title-size: clamp(22px, 1.7vw, 26px);
+  --title-size: clamp(28px, 2.5vw, 35px);
   --title-weight: 500;
 
   --nav-size: clamp(16px, 1.1vw, 18px);
   --nav-gap: clamp(22px, 2vw, 36px);
 
-  --body-size: clamp(17px, 1.3vw, 20px);
-  --body-line-height: 1.78;
+  --body-size: clamp(20px, 1.6vw, 24px);
+  --body-line-height: 1.85;
   --body-weight: 400;
   --body-paragraph-gap: clamp(26px, 3vw, 40px);
 
