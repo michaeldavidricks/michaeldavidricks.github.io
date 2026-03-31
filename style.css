@@ -28,7 +28,7 @@
   --image-max-width: 720px;
 
   --bio-top-offset: clamp(18px, 4vw, 74px);
-  --bio-block-pad-y: clamp(24px, 2.6vw, 36px);
+  --bio-block-pad-y: clamp(48px, 5vw, 55px);
   --bio-block-pad-right: clamp(10px, 1.8vw, 24px);
 
   --title-size: clamp(36px, 4vw, 42px);
