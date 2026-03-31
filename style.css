@@ -13,7 +13,7 @@
   --font-serif: "EB Garamond", Garamond, Baskerville, "Times New Roman", serif;
 
   --site-max-width: 1760px;
-  --site-side-padding: clamp(12px, 1.5vw, 20px);
+  --site-side-padding: clamp(16px, 2vw, 24px);
 
   --header-min-height: 108px;
   --header-gap: 24px;
@@ -21,20 +21,20 @@
 
   --hero-pad-top: clamp(56px, 5vw, 84px);
   --hero-pad-bottom: clamp(56px, 5vw, 84px);
-  --hero-gap: clamp(24px, 3vw, 44px);
-  --hero-columns-left: 45%;
-  --hero-columns-right: 55%;
+  --hero-gap: clamp(28px, 4vw, 44px);
+  --hero-columns-left: 50%;
+  --hero-columns-right: 50%;
 
-  --image-max-width: 760px;
+  --image-max-width: 720px;
 
   --bio-top-offset: clamp(18px, 4vw, 74px);
   --bio-block-pad-y: clamp(24px, 2.6vw, 36px);
   --bio-block-pad-right: clamp(10px, 1.8vw, 24px);
 
-  --title-size: clamp(28px, 2.5vw, 35px);
-  --title-weight: 500;
+  --title-size: clamp(32px, 3vw, 38px);
+  --title-weight: 450;
 
-  --nav-size: clamp(16px, 1.1vw, 18px);
+  --nav-size: clamp(18px, 1.2vw, 22px);
   --nav-gap: clamp(22px, 2vw, 36px);
 
   --body-size: clamp(20px, 1.6vw, 24px);
@@ -42,10 +42,11 @@
   --body-weight: 400;
   --body-paragraph-gap: clamp(26px, 3vw, 40px);
 
-  --footer-name-size: clamp(20px, 1.4vw, 24px);
-  --footer-link-gap: 18px;
-  --footer-row-gap: 12px;
-  --footer-icon-size: 24px;
+  --footer-name-size: clamp(32px, 3vw, 44px);
+  --footer-link-gap: 22px;
+  --footer-row-gap: 16px;
+  --footer-icon-size: 32px;
+  --footer-link-box-size: 36px;
 }
 
 /* reset */
@@ -210,6 +211,8 @@ body {
   color: var(--color-footer-icon);
   text-decoration: none;
   display: grid;
+  width: var(--footer-link-box-size);
+  height: var(--footer-link-box-size);
   place-items: center;
 }
 
