@@ -192,18 +192,24 @@ body {
 }
 
 .news-list {
+  list-style: none;
   margin: 0;
-  padding-left: 1.15em;
+  padding-left: 1.5em;
 }
 
 .news-list li {
+  position: relative;
   margin-bottom: 0.45rem;
-  font-size: var(--body-size);
-  line-height: calc(var(--body-line-height) * 0.9);
+  font-size: calc(var(--body-size) * 0.9);
+  line-height: calc(var(--body-line-height) * 0.8);
+  padding-left: 0.9em;
 }
 
-.news-list li:last-child {
-  margin-bottom: 0;
+.news-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .news-list a {
