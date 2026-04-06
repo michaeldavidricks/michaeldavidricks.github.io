@@ -198,7 +198,7 @@ body {
 
 .news-list li {
   margin-bottom: 0.45rem;
-  font-size: var(--body-size));
+  font-size: var(--body-size);
   line-height: calc(var(--body-line-height) * 0.9);
 }
 
