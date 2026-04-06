@@ -177,6 +177,48 @@ body {
   font-weight: 700;
 }
 
+.news-block {
+  margin-top: calc(var(--body-paragraph-gap) * 0.2);
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--color-divider);
+}
+
+.news-heading {
+  margin: 0 0 0.55rem 0;
+  font-size: calc(var(--body-size) * 0.88);
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--color-body-text);
+}
+
+.news-list {
+  margin: 0;
+  padding-left: 1.15em;
+}
+
+.news-list li {
+  margin-bottom: 0.45rem;
+  font-size: calc(var(--body-size) * 0.84);
+  line-height: calc(var(--body-line-height) * 0.9);
+}
+
+.news-list li:last-child {
+  margin-bottom: 0;
+}
+
+.news-list a {
+  color: var(--color-body-text);
+  text-decoration: underline;
+  text-underline-offset: 0.08em;
+  text-decoration-thickness: 0.05em;
+  font-weight: 500;
+}
+
+.news-list a:hover,
+.news-list a:focus {
+  text-decoration-thickness: 0.08em;
+}
+
 /* footer */
 .site-footer {
   background: var(--color-header-bg);
