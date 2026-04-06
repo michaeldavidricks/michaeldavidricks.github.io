@@ -194,7 +194,7 @@ body {
 .news-list {
   list-style: none;
   margin: 0;
-  padding-left: 1.5em;
+  padding-left: 1.3em;
 }
 
 .news-list li {
@@ -202,14 +202,14 @@ body {
   margin-bottom: 0.45rem;
   font-size: calc(var(--body-size) * 0.9);
   line-height: calc(var(--body-line-height) * 0.8);
-  padding-left: 0.9em;
+  padding-left: 1.1em;
 }
 
 .news-list li::before {
   content: "▸";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 0.02em;
 }
 
 .news-list a {
